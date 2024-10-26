@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.logo {
+    max-width: 100px;
+    height: auto;
+}
+
+nav.menu {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+nav.menu a {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(68, 67, 67);
+    transition: background 0.3s;
+}
+
+nav.menu a:hover {
+    background: rgba(68, 67, 67, 0.1);
+}
+
+.idiomas {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.idiomas a {
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(68, 67, 67);
+    background-color: gray;
+    margin-left: 5px;
+}
+
+.idiomas a:first-child {
+    margin-left: 0;
+}
+
+.idiomas .eus {
+    padding: 10px 5px;
+    background-color: gray;
+}

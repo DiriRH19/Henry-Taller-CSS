@@ -1,0 +1,34 @@
+body{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+header, footer{
+    background-color: rgb(241, 241, 241);
+    padding: 20px;
+    text-align: center;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.nav{
+    padding: 20px;
+    background-color: #e2e2e2;
+}
+
+.aside{
+    padding: 20px;
+    order: 1;
+    background-color: #e2e2e2;
+}
+
+.article{
+    display: flex;
+    background-color: #a9a9a9;
+    order: 1;
+    padding: 15px;
+    height: 78vh;
+}
